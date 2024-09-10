@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabajo Practico 1 - Practica 1</title>
+    <link rel="stylesheet" href="./assets/styles/style.css">
+    <link rel="shortcut icon" href="./assets/images/educacion-a-distancia.png" type="image/x-icon">
+    <!-- Importando la librería de iconos -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container__menu">
+            <div class="logo">
+            </div>
+            <div class="menu">
+                <nav>
+                    <ul>
+                        <li><a href="#" id="selected">Inicio</a></li>
+                        <li><a href="#institucional">Institucional</a></li>
+                        <li><a href="#ingreso">Ingreso 2025</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                    </ul>
+                </nav>
+                <div class="hamburger-menu">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <aside class="social-icons">
+        <a href="https://itscipolletti.edu.ar" target="_blank"><i class="fa-solid fa-globe"></i></a>
+        <a href="https://www.instagram.com/its_cipolletti/" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/company/its-cipolletti/" target="_blank"><i class="fab fa-linkedin"></i></a>
+    </aside>
+
+    <main>
+        <div class="container__cover">
+            <div class="cover">
+                <div class="text">
+                    <h2>Promovemos la innovación y construcción de habilidades, estableciéndonos como una alternativa de educación superior de alta calidad.</h2>
+                    <p>El sello que distingue nuestra oferta educativa es la manera de aprender, que se lleva a cabo  mediante clases prácticas, laboratorios, prácticas profesionalizantes y clases virtuales, generando un ambiente de constantes desafíos.</p>
+                    <input type="button" value="Leer Más" id="leerMasBtn">
+                </div>
+
+                <div class="svg">
+                    <img src="./assets/images/ITS_LOGO.png" alt="ITS">
+                </div>
+            </div>
+        </div>
+
+        <!-- Secciones -->
+        <section id="institucional" class="section">
+            <h3>Desde el 10 de abril de 2017</h2>
+                <br>
+            <p>La educación técnica superior tiene como MISIÓN la formación de técnicos superiores con habilidades, competencias y capacidades de alto nivel adecuadas a las demandas sociales, los avances científicos, tecnológicos y a los requerimientos productivos.</p>
+            <img src="./assets/images/ITS-Cipolletti-RN.jpg" alt="">     
+        </section>
+        <section id="ingreso" class="section">
+            <h3>En DICIEMBRE abrimos la Preinscripción</h2>
+                <br>
+            <p>INGRESO 2025:</p>
+            <br>
+            <p>Completar el FORMULARIO DE PREINSCRIPCIÓN</p>
+            <p>Presentar la DOCUMENTACIÓN que se detalla a continuación (para CONFIRMAR la inscripción).</p>
+            <p>Realizar las ACTIVIDADES PEDAGÓGICAS PARA INGRESANTES (opcional).</p>
+            <br>
+            <img src="./assets/images/Full-Stack-ITS-Cipolletti-1.jpg" alt="">
+            <img src="./assets/images/DevOps-ITS-Cipolletti.jpg" alt="">
+        </section>
+        <section id="contacto" class="section">
+            <h3>Contacto</h2>
+            <form id="contact-form" class="contact-form" action="#" method="post">
+                <div class="form-group">
+                    <label for="name">Nombre</label>
+                    <input type="text" id="name" name="name" placeholder="Tu nombre" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Correo Electrónico</label>
+                    <input type="email" id="email" name="email" placeholder="Tu correo electrónico" required>
+                </div>
+                <div class="form-group">
+                    <label for="subject">Asunto</label>
+                    <input type="text" id="subject" name="subject" placeholder="Asunto" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Mensaje</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Tu mensaje" required></textarea>
+                </div>
+                <button type="submit" class="btn-submit">Enviar Mensaje</button>
+            </form>
+        </section>
+    </main>
+
+    <script src="./assets/scripts/script.js"></script>
+</body>
+</html>
