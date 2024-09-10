@@ -113,7 +113,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 20px; /* Añadido para evitar franjas oscuras */
+    padding: 0 20px;
     width: 100%;
 }
 
@@ -311,7 +311,7 @@ header {
     .container__menu {
         flex-direction: column;
         align-items: flex-start;
-        padding: 0; /* Eliminar padding para ajustarse al ancho de la pantalla */
+        padding: 0; 
     }
 
     .menu ul {
@@ -353,18 +353,18 @@ header {
     }
 
     .container__cover .text h2 {
-        font-size: 24px; /* Ajustar tamaño de fuente para dispositivos móviles */
+        font-size: 24px; 
         margin-top: 80px;
     }
     .container__cover {
-        height: auto; /* Ajustar altura para contenido en móviles */
-        background-size: cover; /* Ajustar tamaño de fondo */
+        height: auto; 
+        background-size: cover;
         background-position: center;
     }
 
     #ingreso img,
     #institucional img {
         width: 100%;
-        max-width: none; /* Quitar límite de ancho máximo */
+        max-width: none;
     }
 }
